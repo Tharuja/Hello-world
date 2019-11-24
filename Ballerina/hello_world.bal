@@ -16,7 +16,7 @@ service<http:Service> hello bind {port:9090} {
   hi (endpoint caller, http:Request request) {
 
       http:Response res;
-      res.setPayload("Hello all Ballerina Wold!");
+      res.setPayload("Hello all bal life!");
 
       _ = caller->respond(res);
   }
